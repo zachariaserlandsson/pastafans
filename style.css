@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Gotham;
+  src: url("Gotham-Font/GothamMedium.ttf") format("opentype");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, p {
+  font-family: "Gotham";
+  color: white;
+}
+
+/**
+ * Background class for spanning the entire page.
+ */
+.background {
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: url(board-color-cook-357604.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.title {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid white;
+  text-align: center;
+}
+
+h1.title {
+  color: white;
+  font-size: 230%;
+}
+
+div.pasta {
+  background-color: black;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 1%;
+}
+
+h2.pasta {
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+p.pasta {
+  color: white;
+}
+
+li.pastaContent {
+  color: white;
+}
+
+div.listItem {
+  margin-top: -4%;
+}
+
+p.listItem, i.listItem {
+  display: inline-block;
+}
+
+.leftSideItem {
+  margin-left: 5%;
+}
+
+.rightSideItem {
+  float: right;
+  margin-right: 5%;
+}
+
+.iconFemale {
+  color: rgb(255, 3, 112);
+}
+
+.iconMale {
+  color: rgb(82, 255, 5);
+}
